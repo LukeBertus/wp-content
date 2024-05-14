@@ -1,0 +1,56 @@
+.blog-archive
+    background-color: #f8f8f8
+    padding-bottom: 4rem
+    .container
+        h1
+            font: 800 3rem sans-serif
+            text-align: center
+            padding: 2rem 0
+        .blog-posts
+            display: grid
+            grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))
+            grid-gap: 3rem
+            .blog-post
+                background-color: white
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3)
+                transition: box-shadow 0.3s
+                position: relative
+                &:hover
+                    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4)
+                img
+                    height: 15rem
+                    width: 100%
+                h2
+                    padding-top: 1rem
+                    padding-left: 1rem
+                    font: 700 1.4rem 'Open Sans', sans-serif
+                .excerpt
+                    padding: 0.7rem 0 1rem 1rem 
+                    font: 400 1.1rem 'Open Sans', sans-serif
+                .read-more-container
+                    display: flex
+                    padding: 0.5rem 0 4rem 1rem
+                    .read-more
+                        font: 700 1.1rem sans-serif
+                        color: #333
+                        text-decoration: none
+                    img
+                        height: 1rem
+                        width: auto
+                        padding-left: 0.2rem
+                        position: relative
+                        top: 0.5px
+                hr
+                    margin: 0
+                    padding: 0
+                    position: absolute
+                    width: 100%
+                    bottom: 2.5rem
+                .author-credit
+                    font: 400 1rem 'Open Sans', sans-serif
+                    position: absolute
+                    bottom: 0.7rem
+                    padding-left: 1rem
+                    span
+                        font: 700 1rem 'Open Sans', sans-serif
+                        color: #333

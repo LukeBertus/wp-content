@@ -17,7 +17,7 @@ Template Name: Pricing Guide
         <div class="pricing">
             <h2 id="web-design">Web Design</h2>
             <div class="cards web-design-cards">
-                <div class="pricing-card">
+                <div class="pricing-card" data-aos="fade-up">
                     <div class="card-heading card-heading-web-design">
                         <h3>Basic</h3>
                     </div>
@@ -34,7 +34,7 @@ Template Name: Pricing Guide
                         <p>$1,400-2,500</p>
                     </div>
                 </div>
-                <div class="pricing-card">
+                <div class="pricing-card" data-aos="fade-up">
                     <div class="card-heading card-heading-web-design">
                         <h3>Advanced</h3>
                     </div>
@@ -52,7 +52,7 @@ Template Name: Pricing Guide
                         <p>$2,500-4,000</p>
                     </div>
                 </div>
-                <div class="pricing-card">
+                <div class="pricing-card" data-aos="fade-up">
                     <div class="card-heading card-heading-web-design">
                         <h3>Enterprise</h3>
                     </div>
@@ -76,7 +76,7 @@ Template Name: Pricing Guide
         <div class="pricing">
             <h2 id="services">Services</h2>
             <div class="cards web-design-cards">
-                <div class="pricing-card pricing-card-service">
+                <div class="pricing-card pricing-card-service" data-aos="fade-up">
                     <div class="card-heading card-heading-service">
                         <h3>Hosting & Maintenance</h3>
                     </div>
@@ -95,7 +95,7 @@ Template Name: Pricing Guide
                         <p>$70<span class="italics">/month</span></p>
                     </div>
                 </div>
-                <div class="pricing-card pricing-card-service">
+                <div class="pricing-card pricing-card-service" data-aos="fade-up">
                     <div class="card-heading card-heading-service">
                         <h3>Search Engine Optimisation</h3>
                     </div>
@@ -112,7 +112,7 @@ Template Name: Pricing Guide
                         <p>$1,900<span class="italics">/month</span></p>
                     </div>
                 </div>
-                <div class="pricing-card pricing-card-service">
+                <div class="pricing-card pricing-card-service" data-aos="fade-up">
                     <div class="card-heading card-heading-service">
                         <h3>Search Engine Optimisation+</h3>
                     </div>

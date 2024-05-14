@@ -1,0 +1,89 @@
+.footer
+    background-color: $mainBlue
+    .container-main
+        display: grid
+        grid-template: min-content min-content / 10fr min-content 1fr min-content 1fr min-content 10fr
+        grid-row-gap: 1rem
+        padding: 3rem 0 3rem
+        overflow: visible
+        p
+            font: 600 1.7rem 'keep-calm', sans-serif
+            color: white
+            letter-spacing: 2px
+            cursor: default
+        a
+            color: #f8f8f8
+            font: 500 1rem 'Open Sans', serif
+            white-space: nowrap
+            width: min-content
+            overflow: auto
+            margin-bottom: 0.1rem
+            &:hover
+                color: #ededed
+                text-decoration: underline
+                border-radius: 5px
+        .list-box
+            width: 1px
+            ul
+                color: white
+                li
+                    margin-bottom: calc(0.4rem - 10px)
+        .title-box
+            svg
+                display: none
+        .contact
+            padding-right: 9rem
+        .services
+            padding: 0 4rem
+        .list-box-services
+            padding: 0 4rem
+        .media, .list-box-media
+            padding-left: 8rem
+            position: relative
+            right: 2rem
+        @media (max-width: 830px)
+            p
+                font: 600 1.5rem 'keep-calm', sans-serif
+            a
+                font: 500 1rem 'Open Sans', sans-serif
+            #one, #four
+                padding-left: 1rem
+        @media (max-width: 738px)
+            grid-template: repeat(6, min-content) / 1fr
+            grid-row-gap: 0.3rem
+            padding-bottom: 0
+            #one
+                order: 1
+            #two
+                order: 3
+            #three
+                order: 5
+            #four
+                order: 2
+            #five
+                order: 4
+            #six
+                order: 6
+            //lists 
+            #four, #five, #six
+                padding-bottom: 2.5rem
+            .spacer
+                display: none
+            .heading, .list-box
+                padding: 0
+                position: static
+            .title-box, .list-box, ul, li, a
+                text-align: center
+                .media
+                    display: block
+            .list-box
+                width: 100%
+            p
+                font-size: 1.9rem
+            a
+                font-size: 1.1rem
+                
+
+
+
+        

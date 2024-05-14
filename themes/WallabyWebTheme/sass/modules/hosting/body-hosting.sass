@@ -1,0 +1,43 @@
+.hosting-main
+    position: relative
+    .container
+        display: flex
+        align-items: center
+        @media (max-width: 790px)
+            display: grid
+            grid-template-columns: 1fr
+            grid-template-rows: min-content min-content
+            grid-template-areas: "textbox" "image"
+        img
+            width: 50%
+            max-height: 35rem
+            position: relative
+            top: 1rem
+            grid-area: image
+            @media (max-width: 790px)
+                width: 100%
+                top: 0
+                bottom: 3rem
+        .hosting-body-textbox
+            padding: 7rem 0
+            grid-area: textbox
+            @media (max-width: 790px)
+                padding: 3rem 0
+            h2
+                font: 800 2.5rem sans-serif
+                line-height: 1.2
+            p, li
+                font: 400 1.1rem 'Open Sans', sans-serif
+                padding-top: 1rem
+                line-height: 1.5
+            ul
+                list-style-type: disc
+                position: relative
+                left: 2rem
+                line-height: 1
+                padding: 0.5rem 0
+            li
+                line-height: 1
+
+
+            

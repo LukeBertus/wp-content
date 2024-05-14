@@ -1,0 +1,113 @@
+.seo-hero
+    position: relative
+    .container
+        display: flex
+        align-items: center
+        @media (max-width: 850px)
+            flex-direction: column        
+        .seo-textbox
+            padding: 10rem 0
+            width: 50%
+            @media (max-width: 850px)
+                width: 80%
+                padding: 3rem 0 0
+            @media (max-width: 700px)
+                width: 100%
+            h1
+                font: 400 1.3rem 'Open Sans', san-serif
+                line-height: 1.2
+                @media (max-width: 550px)
+                    font-size: 1.2rem
+            .seo-heading
+                
+                font: 800 3rem sans-serif
+                line-height: 1.2
+                @media (max-width: 550px)
+                    font-size: 2.5rem
+                    padding: 0.2rem 0
+                @media (max-width: 400px)
+                    font-size: 2.2rem
+                    padding-bottom: none
+                span
+                    position: relative
+                    display: inline-block
+                    height: 52px
+                    margin-left: -2px
+                    padding-right: 2px
+                    padding-left: 2px
+                    border-bottom: 10px solid $mainYellow
+                    @media (max-width: 550px)
+                        height: 43px
+                        border-bottom: 8px solid $mainYellow
+                    @media (max-width: 400px)
+                        height: 38px
+                        border-bottom: 7px solid $mainYellow
+            .seo-subtext
+                font: 400 1.15rem 'Open Sans', sans-serif
+                padding-top: 0.5rem
+                line-height: 1.5
+        img
+            height: 30rem
+            margin: auto
+            @media (max-width: 1080px)
+                height: 25rem
+            @media (max-width: 900px)
+                height: 22rem
+            @media (max-width: 850px)
+                height: auto
+                widht: auto
+                padding: 0 8rem
+            @media (max-width: 700px)
+                padding: 0 5rem
+            @media (max-width: 550px)
+                padding: 0 2rem
+            @media (max-width: 360px)
+                padding: 0 1rem
+
+.gradient-button
+    margin-top: 1.5rem
+    width: 170px
+    height: 50px
+    border: 0
+    border-radius: 50px
+    font-size: 15px
+    background: #fff
+    color: #fff
+    position: relative
+    transition: all .3s
+    color: transparent
+    &::before
+        content: ''
+        width: 170px
+        height: 50px
+        line-height: 50px
+        border: 0
+        border-radius: 30px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate3d(-50%, -50%, 0) scaleX(1.035) scaleY(1.1)
+        background: linear-gradient(to right, #4197ff, #0058c4)
+        z-index: -1
+    &::after
+        content: attr(aria-label)
+        background: #fff
+        width: 170px
+        height: 50px
+        line-height: 50px
+        border: 0
+        border-radius: 50px
+        position: absolute
+        font-size: 20px
+        font-weight: 700
+        top: 50%
+        left: 50%
+        transform: translate3d(-50%, -50%, 0) scaleX(.95) scaleY(.9)
+        background-image: linear-gradient(to right, #4197ff, #0058c4)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        color: #fff
+    &:hover
+        background: transparent
+    &:hover::after
+        -webkit-text-fill-color: #fff

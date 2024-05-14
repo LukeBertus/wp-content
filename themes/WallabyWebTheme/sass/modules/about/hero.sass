@@ -1,0 +1,39 @@
+.about-hero
+    .container
+        display: flex
+        align-items: center
+        @media (max-width: 950px)
+            flex-direction: column
+        .about-textbox
+            width: 50%
+            padding: 8rem 0 10rem
+            @media (max-width: 1050px)
+                padding: 7rem 0
+            @media (max-width: 950px)
+                padding: 3rem 5rem 0
+            @media (max-width: 650px)
+                padding: 3rem 0 0
+            h1
+                font: 400 1.3rem 'Open Sans', san-serif
+                @media (max-width: 385px)
+                    font-size: 1.2rem
+            h2
+                font: 800 3rem sans-serif
+            p
+                font: 400 1.2rem 'Open Sans', sans-serif
+                padding-top: 0.5rem
+                @media (max-width: 385px)
+                    font-size: 1.1rem
+        img
+            height: 25rem
+            width: 50%
+            @media (max-width: 1050px)
+                height: 30rem
+            @media (max-width: 950px)
+                height: 25rem
+            @media (max-width: 950px)
+                height: 30rem
+            @media (max-width: 650px)
+                height: 25rem
+            @media (max-width: 450px)
+                height: auto

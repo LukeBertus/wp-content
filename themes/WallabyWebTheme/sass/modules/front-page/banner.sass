@@ -1,0 +1,51 @@
+.banner
+    background-color: #292929
+    position: relative
+    padding-bottom: 3rem
+    @media (max-width: 993px)
+        padding-bottom: 1rem
+    .container
+        .textbox-container
+            display: flex
+            justify-content: center
+            .textbox
+                color: white
+                text-align: center
+                width: 100%
+                h2
+                    color: #a8a8a8
+                    font: 400 1.3rem 'Open Sans', sans-serif
+                    font-style: italic
+                    cursor: default
+                    margin-top: -1rem
+                    @media (max-width: 993px)
+                        font: 400 1rem 'Open Sans', sans-serif
+                .title
+                    font: 700 3rem 'Poppins', sans-serif
+                    @media (max-width: 993px)
+                        font: 700 2rem 'Poppins', sans-serif
+                    span
+                        text-shadow: 3px 3px 0px $shadowYellow
+                        z-index: 999
+                        @media (max-width: 993px)
+                            text-shadow: 2px 2px 0px $shadowYellow
+                .subtext
+                    width: 80%
+                    margin: auto
+                    font: 400 1.2rem 'Open Sans', sans-serif
+                    @media (max-width: 993px)
+                        width: 100%
+                        margin-bottom: 1rem
+                        &-bottom
+                            display: none  
+                    .wallaby
+                        font-family: 'keep-calm'    
+                        color: white
+                        &:hover
+                            color: $mainBlue
+        &>p
+            color: white
+            font: 700 2.5rem 'century-gothic', sans-serif
+            text-align: center
+            margin-top: 5rem !important
+            margin: auto

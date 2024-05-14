@@ -1,0 +1,74 @@
+.wordpress-hero
+    background-size: cover
+    background-position: right
+    @media (max-width: 600px)
+        background-position: calc(85%)
+    @media (max-width: 440px)
+        background-position: calc(80%)
+    .container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media (max-width: 740px)
+            display: block
+        .wordpress-textbox
+            padding: 10rem 0 12rem
+            @media (max-width: 1140px)
+                padding: 8rem 0 12rem
+            @media (max-width: 740px)
+                width: 75%
+                padding-bottom: 0
+            @media (max-width: 600px)
+                width: 80%
+            @media (max-width: 463px)
+                padding: 6rem 0 8rem
+            h1
+                font: 400 1.3rem 'Open Sans', san-serif
+                @media (max-width: 380px)
+                    font-size: 1.2rem
+            .wordpress-title
+                font: 800 4rem sans-serif
+                line-height: 1.2
+                @media (max-width: 1300px)
+                    font-size: 3.5rem
+                @media (max-width: 600px)
+                    font-size: 3rem
+            .wordpress-subtext
+                font: 400 1.3rem sans-serif
+                line-height: 1.5
+                padding-top: 1rem
+                a
+                    text-decoration: underline
+                    font-style: italic
+            .learn-more
+                margin-top: 1rem
+                color: #2586fd
+                background-color: white
+                border: 2px solid #2586fd
+                display: inline-block
+                border-radius: 2rem
+                padding: 0.7rem 1.4rem 0.8rem
+                font: 700 1.2rem 'Open Sans', sans-serif
+                transition: all 0.3s ease, background-color 0s
+                &:hover
+                    background-color: #2586fd
+                    color: white
+        img
+            height: 20rem
+            width: auto
+            opacity: 50%
+            padding-right: 4rem
+            position: relative
+            bottom: 1rem
+            @media (max-width: 1430px)
+                padding-right: 8rem
+            @media (max-width: 1140px)
+                height: 17rem
+            @media (max-width: 828px)
+                bottom: 4rem
+            @media (max-width: 740px)
+                height: 14rem
+                bottom: 0
+                padding: 2rem 0
+            @media (max-width: 463px)
+                display: none

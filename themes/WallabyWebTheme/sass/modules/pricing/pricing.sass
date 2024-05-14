@@ -1,0 +1,126 @@
+.pricing-title
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+    position: relative
+    .container
+        padding: 2rem 2rem
+        h1
+            font: 800 3rem sans-serif
+            text-align: center
+            @media (max-width: 600px)
+                font-size: 2.5rem
+        p
+            font: 400 0.9rem 'Open Sans', sans-serif
+            text-align: center
+            padding-top: 0.5rem
+            a
+                text-decoration: underline
+                font-style: italic
+                color: #0000EE
+
+.pricing-main
+    background-color: #f3f2f2
+    padding-bottom: 10rem
+    .container
+        .pricing
+            h2
+                font: 800 3rem sans-serif
+                text-align: center
+                padding: 2rem 0
+                @media (max-width: 1050px)
+                    font-size: 2.5rem
+            #web-design
+                padding-top: 3rem
+            #services
+                padding-top: 5rem
+                color: $mainBlue
+            .cards
+                display: flex
+                gap: 2rem
+                @media (max-width: 900px)
+                    flex-direction: column
+                    gap: 3rem
+                    align-items: center
+                .pricing-card
+                    flex: 1
+                    position: relative
+                    width: 100%
+                    background-color: white
+                    border-radius: 16px
+                    box-shadow: 3px 3px 10px rgba(0,0,0,0.4)
+                    border: 3px solid #292929
+                    min-width: 215px
+                    @media (max-width: 900px)
+                        width: 480px
+                    @media (max-width: 550px)
+                        width: 90%
+                    .card-heading
+                        background-color: #292929
+                        border-radius: 13px 13px 0 0
+                        &-web-design
+                            position: relative
+                            bottom: 1px
+                            transform: scaleX(1.01)
+                        &-service
+                            background-color: $mainBlue
+                        h3
+                            font: 800 2rem sans-serif
+                            text-align: center
+                            color: white
+                            padding: 1rem
+                            @media (max-width: 1050px)
+                                font-size: 1.5rem
+                                padding: 0.7rem
+                    .pricing-card-body
+                        padding: 1.25rem
+                        @media (max-width: 900px)
+                            padding-left: 3rem
+                            padding-top: 0.5rem
+                        @media (max-width: 430px)
+                            padding-left: 1.25rem
+                        p
+                            font: 700 1.2rem 'Open Sans', sans-serif
+                            font-style: italic
+                            @media (max-width: 1050px)
+                                font-size: 1.1rem 
+                        ul
+                            padding: 0.5rem 0 5rem 1.7rem
+                            list-style-type: disc
+                            @media (max-width: 1050px)
+                                padding-bottom: 3rem
+                            li
+                                font: 500 1rem 'Open Sans', sans-serif
+                                padding-top: 0.2rem
+                                @media (max-width: 1050px)
+                                    font-size: 0.9rem
+                                    padding-top: 0.1rem
+                    .card-pricing
+                        background-color: #FFF
+                        border-radius: 0 0 13px 13px
+                        position: absolute
+                        bottom: 0
+                        width: 100%
+                        height: 6rem
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        @media (max-width: 1050px)
+                            height: 4rem
+                        p
+                            font: 700 1.5rem 'Poppins', serif
+                            color: #292929
+                            background-color: $mainYellow
+                            border-radius: 2rem
+                            padding: 0.7rem 2rem
+                            @media (max-width: 1050px)
+                                font-size: 1.2rem
+                                padding: 0.5rem 2rem
+                            span
+                                font: 500 1.3rem 'Poppins', serif
+                                @media (max-width: 1050px)
+                                    font-size: 1.1rem
+                        img
+                            height: 50%
+                            position: relative
+                            left: 0.3rem
+b
+    font-weight: bold

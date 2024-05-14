@@ -1,0 +1,70 @@
+.seo-explained
+    background-color: $mainBlue
+    .container
+        .seo-explained-header
+            padding-top: 3rem
+            text-align: center
+            color: white
+            @media (max-width: 813px)
+                padding-top: 2rem        
+            h2
+                font: 800 3.5rem sans-serif
+                line-height: 1.2
+            p
+                font: 400 1.1rem 'Open Sans', sans-serif
+                padding-top: 1rem
+                span
+                    font-size: 1.4rem
+                    text-align: left
+        .seo-card-container
+            padding-bottom: 5rem
+            .seo-card
+                background-color: white
+                border-radius: 1rem
+                margin-top: 4rem
+                display: flex
+                box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2)
+                min-width: 205px
+                &-backlinks
+                    margin-top: 3rem
+                @media (max-width: 813px)
+                    margin-top: 3rem
+                img
+                    width: 15rem
+                    padding: 2rem
+                    @media (max-width: 813px)
+                        display: none
+                #backlink-image
+                    position: relative
+                    width: 15rem
+                #blog-post-image
+                    position: relative
+                    width: 15rem
+                    bottom: 5px
+                #keyword-image
+                    position: relative
+                    width: 15rem
+                    right: 5px
+                    top: 5px
+                .seo-card-text
+                    flex: 1
+                    padding-top: 1.5rem
+                    @media (max-width: 813px)
+                        padding-left: 1.5rem
+                        padding-top: 1rem
+                    .seo-card-title
+                        font: 700 1.7rem 'Poppins', sans-serif
+                        @media (max-width: 445px)
+                            font-size: 1.6rem
+                    hr
+                        border: 1px solid $mainBlue
+                        margin: 0.2rem 0 0.6rem
+                        width: 80%
+                    .seo-card-content
+                        font: 400 1.15rem 'Open Sans', sans-serif
+                        padding-bottom: 2rem
+                        padding-right: 1rem
+                        @media (max-width: 993px)
+                            font-size: 1.1rem
+                        @media (max-width: 400px)
+                            font-size: 1rem

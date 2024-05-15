@@ -62,22 +62,35 @@
                                 @media (max-width: 610px)
                                     width: auto
                             textarea
-                                height: 6rem
+                                height: 7rem
                                 width: 32rem
-                                max-height: 195px
+                                max-height: 180px
                                 @media (max-width: 610px)
                                     width: auto
                             #submit
                                 margin-top: 2rem
                                 border: none
-                                width: 8rem
+                                width: 7rem
                                 border-radius: 10rem
                                 height: 2.5rem
                                 background-color: #2380ea
                                 color: white
                                 font: 700 1rem sans-serif
+                                letter-spacing: 1px
                                 &:hover
                                     background-color: #3ca4ff
+                            #success
+                                color: green
+                                font: 600 1.1rem sans-serif
+                                margin-top: 1rem
+                            #error
+                                color: red
+                                font: 600 1.1rem sans-serif
+                                margin-top: 1rem
+                            p
+                                display: none
+                                &:last-of-type
+                                    display: block
             .sidebar
                 width: 100%
                 grid-area: 1 / 1 / 2 / 2
@@ -85,7 +98,7 @@
                     max-width: 650px
                     margin: auto
                 .sidebar-text
-                    font: 400 1.1rem 'Open Sans', serif
+                    font: 400 1.1rem 'Open Sans', sans-serif
                     padding-left: 1rem
                     margin-bottom: 2rem
                     border-left: 3px solid $mainBlue

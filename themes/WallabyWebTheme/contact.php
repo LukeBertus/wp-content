@@ -9,15 +9,15 @@ Template Name: Contact WallabyWeb
         <h2>Contact Us</h2>
         <div class="contact-body">
             <div class="contact-form">
-                <form action="">
+                <form id="myForm">
                     <div class="form form-upper">
                         <div class="input">
                             <label for="name">Name: </label>
-                            <input type="text" id="name" name="name">
+                            <input type="text" id="name" name="name" required>
                         </div>
                         <div class="input">
                             <label for="email">Email: </label>
-                            <input type="text" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </div>
                     </div>
                     <div class="form form-upper">
@@ -33,7 +33,7 @@ Template Name: Contact WallabyWeb
                     <div class="form form-lower">
                         <div class="input">
                             <label for="message">message: </label>
-                            <textarea id="message" name="message"></textarea>
+                            <textarea id="message" name="message" required></textarea>
                             <input id="submit" type="submit" value="Send">
                         </div>
                     </div>

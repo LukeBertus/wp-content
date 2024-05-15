@@ -17,7 +17,7 @@
         <div class="spacer"></div>
         <div id='four' class="list-box list-box-contact">
             <ul>
-                <li><a href="#">Send us a Message</a></li>
+                <li><a href="<?=get_permalink(get_page_by_title('Contact WallabyWeb')->ID)?>">Send us a Message</a></li>
                 <li><a href="mailto:services@wallabyweb.com.au">services@wallabyweb.com.au</a></li>
                 <li><a href="tel:+61436449958">0436 449 958</a></li>
             </ul>
@@ -26,16 +26,16 @@
         <div id='five' class="list-box list-box-services">
             <ul>
                 <li><a href="<?=get_permalink(get_page_by_title('Wordpress Web Design Perth')->ID)?>">WordPress</a></li>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">Affordable Web Design</a></li>
-                <li><a href="#">Hosting</a></li>
+                <li><a href="<?=get_permalink(get_page_by_title('Search Engine Optimisation')->ID)?>">SEO</a></li>
+                <li><a href="<?=get_permalink(get_page_by_title('Perth Website Hosting')->ID)?>">Hosting</a></li>
+                <li><a href="<?=get_permalink(get_page_by_title('Pricing Guide')->ID)?>">Pricing Guide</a></li>
             </ul>
         </div>
         <div class="spacer"></div>
         <div id='six' class="list-box list-box-media">
             <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="<?=get_post_type_archive_link('our-blog')?>">Blog</a></li>
+                <li><a href="<?=get_permalink(get_page_by_title('About WallabyWeb')->ID)?>">About</a></li>
             </ul>
         </div>
     </div>

@@ -1,11 +1,11 @@
 <?php
 
 function theme_files() {
-    wp_deregister_script('jquery');
+    /* wp_deregister_script('jquery'); */
     // jQuery
-    wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.4.1.min.js', array(), null, true);
+    /* wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.4.1.min.js', array(), null, true);
     wp_script_add_data('jquery', 'integrity', 'sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=');
-    wp_script_add_data('jquery', 'crossorigin', 'anonymous');
+    wp_script_add_data('jquery', 'crossorigin', 'anonymous'); */
 
     // Popper.js
     wp_enqueue_script('popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array('jquery'), null, true);
@@ -36,28 +36,49 @@ function theme_files() {
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_script('main-wallaby-js', get_theme_file_uri('/bundle.js'), array('jquery'), '1.0', true);
     wp_enqueue_style('wallaby_main_styles', get_theme_file_uri('/styles.css'));
+
 }
 add_action('wp_enqueue_scripts', 'theme_files');
 
-function handle_custom_form() {
-    $name = $_POST['name'];
-    $message = $_POST['message'];
+function register_ajax() {
+        // Register AJAX the script
+        wp_register_script('ajax', get_template_directory_uri() . '/src/ajax.js', array('jquery'), '1.0', true);
 
-    $to = "luke.engberink@outlook.com";
-    $subject = "New message from your website";
-    $headers = "From: webmaster@example.com";
-
-    $body = "You received a new message from your contact form\n\n".
-            "Name: $name\n\n".
-            "Message:\n$message";
-
-    if (wp_mail($to, $subject, $body, $headers)) {
-        wp_redirect(home_url() . '/thank-you');
-        exit;
-    } else {
-        wp_redirect(home_url() . '/error');
-        exit;
+        // Localize the script with new data
+        $script_data_array = array(
+            'ajax_url' => admin_url('admin-ajax.php')
+        );
+        wp_localize_script('ajax', 'my_script_data', $script_data_array);
+    
+        // Enqueued script with localized data
+        wp_enqueue_script('ajax');
     }
+add_action('wp_enqueue_scripts', 'register_ajax');
+
+function handle_my_form_action() {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Get the message from the form
+        $name = sanitize_text_field($_POST['name']);
+        $email = sanitize_email($_POST['email']);
+        $message = sanitize_textarea_field($_POST['message']);
+        $businessName = sanitize_textarea_field($_POST['business-name']);
+        $businessUrl = sanitize_textarea_field($_POST['business-url']);
+
+        $to = 'services@wallabyweb.com.au';
+        $subject = 'New message from ' . $name;
+
+        $body = "Name: $name\n Email: $email\n Business Name: $businessName\n Business URL: $businessUrl\n Message: $message\n";
+
+        // Send the email
+        if (wp_mail($to, $body, $message)) {
+            echo "Message sent successfully, we will get back to you soon.";
+        } else {
+            echo "Email sending failed, Please try again later.";
+        }
+    }
+
+    // Don't forget to stop execution afterward
+    wp_die();
 }
-add_action('admin_post_custom_form', 'handle_custom_form');
-add_action('admin_post_nopriv_custom_form', 'handle_custom_form');
+add_action('wp_ajax_my_form_action', 'handle_my_form_action'); // For logged in users
+add_action('wp_ajax_nopriv_my_form_action', 'handle_my_form_action'); // For non-logged in users

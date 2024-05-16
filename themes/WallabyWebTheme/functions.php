@@ -55,22 +55,28 @@ function register_ajax() {
     }
 add_action('wp_enqueue_scripts', 'register_ajax');
 
+// Allow HTML in Emails
+function set_html_mail_content_type() {
+    return 'text/html';
+}
+add_filter( 'wp_mail_content_type', 'set_html_mail_content_type' );
+
 function handle_my_form_action() {
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the message from the form
         $name = sanitize_text_field($_POST['name']);
         $email = sanitize_email($_POST['email']);
-        $message = sanitize_textarea_field($_POST['message']);
-        $businessName = sanitize_textarea_field($_POST['business-name']);
-        $businessUrl = sanitize_textarea_field($_POST['business-url']);
+        $message = nl2br('<br>' . sanitize_textarea_field($_POST['message']));
+        $businessName = sanitize_textarea_field($_POST['businessName']);
+        $businessUrl = sanitize_textarea_field($_POST['businessUrl']);
 
         $to = 'services@wallabyweb.com.au';
         $subject = 'New message from ' . $name;
 
-        $body = "Name: $name\n Email: $email\n Business Name: $businessName\n Business URL: $businessUrl\n Message: $message\n";
+        $body = "<p style='color: black'><strong>Name:</strong> $name<br> <strong>Email:</strong> $email<br> <strong>Business Name:</strong> $businessName<br> <strong>Business URL:</strong> $businessUrl<br> <strong>Message:</strong> $message<br></p>";
 
         // Send the email
-        if (wp_mail($to, $body, $message)) {
+        if (wp_mail($to, $subject, $body)) {
             echo "Message sent successfully, we will get back to you soon.";
         } else {
             echo "Email sending failed, Please try again later.";

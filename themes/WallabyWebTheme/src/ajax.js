@@ -21,11 +21,11 @@ jQuery(function($) {
                 businessUrl: businessUrl
             },
             success: function(response) {
-                $('#submit').after('<p id="success">' + response.data + '</p>');
+                $('#submit').after('<p id="success">' + response + '</p>');
                 $('#myForm')[0].reset();
             },
             error: function(error) {
-                $('#submit').after('<p id="error">' + error.data + '</p>');
+                $('#submit').after('<p id="error">' + error + '</p>');
             }
         });
     });

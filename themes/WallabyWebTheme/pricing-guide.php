@@ -9,7 +9,7 @@ Template Name: Pricing Guide
 <div class="pricing-title">
     <div class="container">
         <h1>PRICING GUIDE</h1>
-        <p class="italics">Note all information on this page serves only as a guide to estimate what a service may cost, all quotes are personalized and based on a multitude of factors. There is no guarantee your quote won't extend beyond the bounds of this pricing guide. We encourage you to contact us for a free consultation so we can offer a personalized quote: <a href="#">Contact</a></p>
+        <p class="italics">Note all information on this page serves only as a guide to estimate what a service may cost, all quotes are personalized and based on a multitude of factors. There is no guarantee your quote won't extend beyond the bounds of this pricing guide. We encourage you to contact us for a free consultation so we can offer a personalized quote: <a href="https://calendly.com/services-ag6w/30min">Contact</a></p>
     </div>
 </div>
 <div class="pricing-main">

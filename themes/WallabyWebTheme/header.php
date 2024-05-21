@@ -40,7 +40,7 @@
             Contact</a>
           </li>
           <li class="nav-item">
-            <div class="wrapper"><a class="btn btn-outline-success" type="button">BOOK A CALL</a></div>
+            <div class="wrapper"><a href="https://calendly.com/services-ag6w/30min" target="_blank" class="btn btn-outline-success" type="button">BOOK A CALL</a></div>
           </li>
         </ul>
       </div>

@@ -28,7 +28,7 @@
                 <li class="taco-item"><a href="#wd12" class="taco-link">#12. Maintain & Improve your Website</a></li>
             </ul>
         </div>
-        <div class="single-blog">
+        <div class="single-blog random">
         <?php
             while (have_posts() ) :
                 the_post();

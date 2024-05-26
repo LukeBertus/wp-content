@@ -32,7 +32,7 @@ function theme_files() {
     // Initialize AOS
     wp_add_inline_script('aos-script', 'AOS.init();');
     
-    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap', array(), null);
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap', array(), null);
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_script('main-wallaby-js', get_theme_file_uri('/bundle.js'), array('jquery'), '1.0', true);
     wp_enqueue_style('wallaby_main_styles', get_theme_file_uri('/styles.css'));
@@ -88,3 +88,8 @@ function handle_my_form_action() {
 }
 add_action('wp_ajax_my_form_action', 'handle_my_form_action'); // For logged in users
 add_action('wp_ajax_nopriv_my_form_action', 'handle_my_form_action'); // For non-logged in users
+
+// Disable Elementor Smooth Scrolling
+add_action( 'wp_enqueue_scripts', function() {
+    wp_add_inline_script( 'elementor-frontend', "jQuery(window).on('elementor/frontend/init',function(){if(typeof elementorFrontend==='undefined'){return}elementorFrontend.on('components:init',function(){elementorFrontend.utils.anchors.setSettings('selectors.targets','.dummy-selector')})});" );
+ } );

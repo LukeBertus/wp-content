@@ -1,0 +1,129 @@
+[2024-05-26 08:47:38][notice]Start restoring themes.
+[2024-05-26 08:47:38][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip
+[2024-05-26 08:47:38][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip succeeded.
+[2024-05-26 08:47:38][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:0
+[2024-05-26 08:47:38][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:0 finished.
+[2024-05-26 08:47:38][notice]End restore themes.
+[2024-05-26 08:47:39][notice]Start restoring themes.
+[2024-05-26 08:47:39][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:1000
+[2024-05-26 08:47:39][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:1000 finished.
+[2024-05-26 08:47:39][notice]End restore themes.
+[2024-05-26 08:47:40][notice]Start restoring themes.
+[2024-05-26 08:47:40][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:2000
+[2024-05-26 08:47:41][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:2000 finished.
+[2024-05-26 08:47:41][notice]End restore themes.
+[2024-05-26 08:47:42][notice]Start restoring themes.
+[2024-05-26 08:47:42][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:3000
+[2024-05-26 08:47:42][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:3000 finished.
+[2024-05-26 08:47:42][notice]End restore themes.
+[2024-05-26 08:47:43][notice]Start restoring themes.
+[2024-05-26 08:47:43][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:4000
+[2024-05-26 08:47:43][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:4000 finished.
+[2024-05-26 08:47:43][notice]End restore themes.
+[2024-05-26 08:47:44][notice]Start restoring themes.
+[2024-05-26 08:47:44][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:5000
+[2024-05-26 08:47:44][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_themes.zip index:5000 finished.
+[2024-05-26 08:47:44][notice]End restore themes.
+[2024-05-26 08:47:46][notice]Start restoring plugin.
+[2024-05-26 08:47:46][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip
+[2024-05-26 08:47:46][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip succeeded.
+[2024-05-26 08:47:46][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_plugin.zip index:0
+[2024-05-26 08:47:46][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_plugin.zip index:0 finished.
+[2024-05-26 08:47:46][notice]End restore plugin.
+[2024-05-26 08:47:47][notice]Start restoring plugin.
+[2024-05-26 08:47:47][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_plugin.zip index:1000
+[2024-05-26 08:47:47][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_plugin.zip index:1000 finished.
+[2024-05-26 08:47:47][notice]End restore plugin.
+[2024-05-26 08:47:48][notice]Start restoring wp-content.
+[2024-05-26 08:47:48][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip
+[2024-05-26 08:47:52][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip succeeded.
+[2024-05-26 08:47:52][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_content.zip index:0
+[2024-05-26 08:47:52][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_content.zip index:0 finished.
+[2024-05-26 08:47:52][notice]End restore wp-content.
+[2024-05-26 08:47:54][notice]Start restoring upload.
+[2024-05-26 08:47:54][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip
+[2024-05-26 08:47:54][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip succeeded.
+[2024-05-26 08:47:54][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_uploads.zip index:0
+[2024-05-26 08:47:54][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_uploads.zip index:0 finished.
+[2024-05-26 08:47:54][notice]End restore upload.
+[2024-05-26 08:47:55][notice]Start restoring wp-core.
+[2024-05-26 08:47:55][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part002.zip
+[2024-05-26 08:47:55][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part002.zip succeeded.
+[2024-05-26 08:47:55][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_core.zip
+[2024-05-26 08:47:57][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_core.zip succeeded.
+[2024-05-26 08:47:57][notice]End restore wp-core.
+[2024-05-26 08:47:58][notice]Start restoring databases.
+[2024-05-26 08:47:58][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip
+[2024-05-26 08:47:58][notice]Extracting file:wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_all.part001.zip finished.
+[2024-05-26 08:47:58][notice]Extracting file:C:\Users\Lukee\Local Sites\wallabyweb\app\public/wp-content\wpvividbackups\wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_db.zip
+[2024-05-26 08:47:58][notice]Extracting file:C:\Users\Lukee\Local Sites\wallabyweb\app\public/wp-content\wpvividbackups\wallabyweb.local_wpvivid-6652ec3c621cb_2024-05-26-08-01_backup_db.zip finished.
+[2024-05-26 08:47:58][notice]End restore databases.
+[2024-05-26 08:47:59][notice]Start restoring databases.
+[2024-05-26 08:47:59][notice]Start restoring sql file offset:0
+[2024-05-26 08:47:59][notice]The test to drop table succeeds.
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_e_events
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_e_events
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_links
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_links
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_term_relationships
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_term_relationships
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_commentmeta
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_commentmeta
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_term_taxonomy
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_term_taxonomy
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_termmeta
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_termmeta
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_terms
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_terms
+[2024-05-26 08:47:59][notice]Drop table if exist tmpaf0807_usermeta
+[2024-05-26 08:47:59][notice]Creating table tmpaf0807_usermeta
+[2024-05-26 08:48:00][notice]Drop table if exist tmpaf0807_users
+[2024-05-26 08:48:00][notice]Creating table tmpaf0807_users
+[2024-05-26 08:48:00][notice]Drop table if exist tmpaf0807_comments
+[2024-05-26 08:48:00][notice]Creating table tmpaf0807_comments
+[2024-05-26 08:48:00][notice]Drop table if exist tmpaf0807_options
+[2024-05-26 08:48:00][notice]Creating table tmpaf0807_options
+[2024-05-26 08:48:01][notice]Drop table if exist tmpaf0807_posts
+[2024-05-26 08:48:01][notice]Creating table tmpaf0807_posts
+[2024-05-26 08:48:01][notice]Drop table if exist tmpaf0807_postmeta
+[2024-05-26 08:48:01][notice]Creating table tmpaf0807_postmeta
+[2024-05-26 08:48:02][notice]Reading sql file completed offset:5262744
+[2024-05-26 08:48:02][notice]End restore databases.
+[2024-05-26 08:48:03][notice]Start restoring databases.
+[2024-05-26 08:48:03][notice]Start restoring sql file offset:5262744
+[2024-05-26 08:48:03][notice]The test to drop table succeeds.
+[2024-05-26 08:48:03][notice]UPDATE tmpaf0807_options SET option_value="http://wallabyweb.local" WHERE option_name="siteurl";
+[2024-05-26 08:48:03][notice]update query len:96
+[2024-05-26 08:48:03][notice]UPDATE tmpaf0807_options SET option_value="http://wallabyweb.local" WHERE option_name="home";
+[2024-05-26 08:48:03][notice]update query len:93
+[2024-05-26 08:48:03][notice]Restore db success
+[2024-05-26 08:48:03][notice]End restore databases.
+[2024-05-26 08:48:04][notice]Restore db success,now start rename temp table name prefix to new site prefix.
+[2024-05-26 08:48:04][notice]DROP TABLE IF EXISTS wp_commentmeta
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_comments
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_e_events
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_links
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_options
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_postmeta
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_posts
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_term_relationships
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_term_taxonomy
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_termmeta
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_terms
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_usermeta
+[2024-05-26 08:48:05][notice]DROP TABLE IF EXISTS wp_users
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_commentmeta TO wp_commentmeta
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_comments TO wp_comments
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_e_events TO wp_e_events
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_links TO wp_links
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_options TO wp_options
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_postmeta TO wp_postmeta
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_posts TO wp_posts
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_term_relationships TO wp_term_relationships
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_term_taxonomy TO wp_term_taxonomy
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_termmeta TO wp_termmeta
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_terms TO wp_terms
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_usermeta TO wp_usermeta
+[2024-05-26 08:48:05][notice]RENAME TABLE tmpaf0807_users TO wp_users
+[2024-05-26 08:48:05][notice]Replacing table prefix succeeded.
+[2024-05-26 08:48:05][notice]Deleting temp files.

@@ -105,12 +105,14 @@
                         align-items: center
                         @media (max-width: 1050px)
                             height: 4rem
-                        p
+                        a
                             font: 700 1.5rem 'Poppins', sans-serif
                             color: #292929
                             background-color: $mainYellow
                             border-radius: 2rem
                             padding: 0.7rem 2rem
+                            &:hover
+                                background-color: lighten($mainYellow, 7%)
                             @media (max-width: 1050px)
                                 font-size: 1.2rem
                                 padding: 0.5rem 2rem

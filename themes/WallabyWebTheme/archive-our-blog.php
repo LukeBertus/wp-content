@@ -13,7 +13,7 @@
                     <a href="<?= the_permalink() ?>">
                         <img src="<?=get_field('thumbnail')?>" alt="">
                         <h2><?= the_title() ?></h2>
-                        <p class="excerpt"><?= get_field('excerpt') ?></p>
+                        <p class="excerpt"><?= get_field('subtext') ?></p>
                         <div class="read-more-container">
                             <p class="read-more">READ MORE</p>
                             <img src="<?=get_theme_file_uri('/images/arrow.svg')?>" alt="">

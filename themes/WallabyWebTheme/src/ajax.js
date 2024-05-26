@@ -1,6 +1,5 @@
 
 jQuery(function($) {
-    console.log("hit")
     $('#myForm').on('submit', function(e) {
         e.preventDefault();
 

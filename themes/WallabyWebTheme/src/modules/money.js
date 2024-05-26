@@ -14,7 +14,6 @@ class money {
     }
     // Methods will go here
     evenHeight() {
-        console.log($(window).width())
         if ($(window).width() > 700) {
             let contentHeight = $('.affordable-textbox').height();
             $('#money').height(contentHeight);

@@ -5,7 +5,7 @@ function post_types () {
     register_post_type('our-blog', [
         'capability_type' => 'post',
         'map_meta_cap' => true,
-        'supports' => ['title', 'editor', 'custom-fields'],
+        'supports' => ['title', 'editor', 'custom-fields', 'thumbnail'],
         'public' => true,
         'show_in_rest' => true,
         'has_archive' => true,

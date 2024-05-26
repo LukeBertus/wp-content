@@ -31,7 +31,7 @@ Template Name: Pricing Guide
                         </ul>
                     </div>
                     <div class="card-pricing">
-                        <p>$1,400-2,500</p>
+                    <a href="https://calendly.com/services-ag6w/30min">$1,400-2,500</a>
                     </div>
                 </div>
                 <div class="pricing-card" data-aos="fade-up">
@@ -49,7 +49,7 @@ Template Name: Pricing Guide
                         </ul>
                     </div>
                     <div class="card-pricing">
-                        <p>$2,500-4,000</p>
+                    <a href="https://calendly.com/services-ag6w/30min">$2,500-4,000</a>
                     </div>
                 </div>
                 <div class="pricing-card" data-aos="fade-up">
@@ -68,7 +68,7 @@ Template Name: Pricing Guide
                         </ul>
                     </div>
                     <div class="card-pricing">
-                        <p>$4,000+</p>
+                    <a href="https://calendly.com/services-ag6w/30min">$4,000+</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@ Template Name: Pricing Guide
                         </ul>
                     </div>
                     <div class="card-pricing">
-                        <p>$70<span class="italics">/month</span></p>
+                        <a href="https://calendly.com/services-ag6w/30min">$70<span class="italics">/month</span></a>
                     </div>
                 </div>
                 <div class="pricing-card pricing-card-service" data-aos="fade-up">
@@ -109,7 +109,7 @@ Template Name: Pricing Guide
                         </ul>
                     </div>
                     <div class="card-pricing">
-                        <p>$1,900<span class="italics">/month</span></p>
+                    <a href="https://calendly.com/services-ag6w/30min">$1,900<span class="italics">/month</span></a>
                     </div>
                 </div>
                 <div class="pricing-card pricing-card-service" data-aos="fade-up">
@@ -126,7 +126,7 @@ Template Name: Pricing Guide
                         </ul>
                     </div>
                     <div class="card-pricing">
-                        <p>$3,600<span class="italics">/month</span></p>
+                    <a href="https://calendly.com/services-ag6w/30min">$3,600<span class="italics">/month</span></a>
                     </div>
                 </div>
             </div>

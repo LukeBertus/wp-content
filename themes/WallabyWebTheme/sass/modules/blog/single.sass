@@ -1,0 +1,75 @@
+.single
+    padding: 0 1rem
+    .single-banner
+        display: flex
+        max-width: 1500px
+        margin: auto
+        @media (max-width: 680px)
+            flex-direction: column
+        .single-textbox
+            width: 50%
+            padding: 6rem 2rem 5rem 0
+            @media (max-width: 680px)
+                width: 100%
+                padding: 3rem 0
+            h1
+                font: 800 3rem 'Poppins', sans-serif
+                @media (max-width: 1160px)
+                    font-size: 2.5rem
+                @media (max-width: 460px)
+                    font-size: 2rem
+            p
+                font: 500 1.3rem 'Open Sans', sans-serif
+                @media (max-width: 460px)
+                    font-size: 1.2rem
+        .single-image
+            width: 50%
+            background-size: cover
+            @media (max-width: 680px)
+                width: 100%
+                height: 20rem
+    .single-divider
+        hr
+            border-top: 5px solid $mainBlue
+            width: 80%
+            margin: 2rem 0
+            @media (max-width: 460px)
+                margin: 2rem 0 0
+    .single-content
+        margin: auto
+        display: flex
+        justify-content: center
+        gap: 3rem
+        position: relative
+        .single-taco-menu
+            width: 300px
+            padding-top: 4rem
+            height: min-content
+            position: sticky
+            top: 4rem
+            margin-left: 1rem
+            @media(max-width: 780px)
+                display: none
+            .taco-title
+                font: 600 1.3rem 'Poppins', sans-serif
+                padding-left: 0.5rem
+                border-left: 3px solid #2767fb
+            .taco-item
+                margin: 0.7rem 0
+                a
+                    font: 400 1.1em 'Lato', sans-serif
+                    color: #979797
+                    text-decoration: none
+                    &:hover
+                        color: #2767fb
+                .active
+                    color: #2767fb
+        .single-blog
+            width: 680px
+i
+    font-style: italic !important
+
+.link-text
+    a
+        color: #2767fb
+

@@ -34,12 +34,10 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 p,
 li {
   line-height: 1.65;
-}
-html {
-  scroll-behavior: smooth;
 }

@@ -19,7 +19,7 @@
                             <img src="<?=get_theme_file_uri('/images/arrow.svg')?>" alt="">
                         </div>
                         <hr>
-                        <p class="author-credit">By <span>LUKE ENGBERINK</span></p>
+                        <p class="author-credit">By <span>LUKE ENGBERIK</span></p>
                     </a>
                 </div>
             <?php

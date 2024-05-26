@@ -8,7 +8,7 @@ function theme_files() {
     /* wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.4.1.min.js', array(), null, true);
     wp_script_add_data('jquery', 'integrity', 'sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=');
     wp_script_add_data('jquery', 'crossorigin', 'anonymous'); */
-    wp_script_add_data('jquery', 'crossorigin', 'anonymous'); */
+    wp_script_add_data('jquery', 'crossorigin', 'anonymous'); 
 
     // Popper.js
     wp_enqueue_script('popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array('jquery'), null, true);

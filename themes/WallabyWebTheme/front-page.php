@@ -5,7 +5,7 @@
             <h1>Professional Web Development Based in Perth</h1>
             <div class="headline"><span class="underline">STAND OUT</span> FROM THE CROWD.</div>
             <p class="subheading">Forget  cookie-cutter websites!</p>
-            <p class="subtext" data-aos="fade-zoom-in">Each page is meticulously hand-coded with <a href="https://calendly.com/services-ag6w/30min">SEO</a> in mind, maximizing your <span class="bold">online visibility</span> and <span class="bold">driving more customers to your door.</span></p>
+            <p class="subtext" data-aos="fade-zoom-in">Each page is meticulously hand-coded with <a href="<?=get_permalink(get_page_by_title('Search Engine Optimisation')->ID)?>">SEO</a> in mind, maximizing your <span class="bold">online visibility</span> and <span class="bold">driving more customers to your door.</span></p>
         </div>
         <div class="button-box">
             <div class="wrapper" data-aos="fade-zoom-in"><a class="pricing" href="<?=get_permalink(get_page_by_title('Pricing Guide')->ID)?>">PRICING</a></div>
